@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Revision Website</title>
+	<link rel="stylesheet" href="styleChapter2.css">
+</head>
+<body>
+	<div class="wrapper">		  
+		<header>
+			<img src="./images/DIGITAL TECHNOLOGIES.png" width=100%/>
+		</header>
+		<div class="to_top"><img src="./images/toTop.png" alt="toTop"></div>
+		<div class="navbar">
+			<div class="menu-icon" onclick="toggleMenu()">
+			  <!-- Hamburger Icon (3 lines) -->
+			  &#9776;
+			</div>
+			<div class="nav_btn">
+				<button class="mainbtn"><a href="indexMain.html" class="navbar">Main</a></button>
+				<button class="chapter1btn"><a href="indexChapter1.html" class="navbar">Chapter 1</a></button>
+				<button class="chapter2btn"><a href="indexChapter2.html" class="navbar">Chapter 2</a></button>
+				<button class="chapter3btn"><a href="indexChapter3.html" class="navbar">Chapter 3</a></button>
+			</div>
+			<ul class="nav-links">
+			  <li><a href="#header" class="navbar">Main</a></li>
+			  <li><a href="#chapter1" class="navbar">Chapter 1</a></li>
+			  <li><a href="#chapter2" class="navbar">Chapter 2</a></li>
+			  <li><a href="#chapter3" class="navbar">Chapter 3</a></li>
+			</ul>
+		</div>		  
+		<section id="chapter2">
+			<div class="image">
+			  <img src="./images/analysis1.png" alt="analysis">
+			  <img src="./images/analysis2.png" alt="analysis">
+			  <img src="./images/analysis3.png" alt="analysis">
+			  <img src="./images/analysis4.png" alt="analysis">
+			</div>
+			
+			<div class="content">
+			  <h1>Analysis</h1>
+			  <p>This topic covers...</p>
+			  <ul>
+				<li>Describe the purpose of analysis</li>
+				<li>Evaluate different fact-finding techniques:
+				  <ul>
+					<li>Interviews</li>
+					<li>Questionnaires</li>
+					<li>Observation</li>
+					<li>Document Sampling</li>
+				  </ul>
+				</li>
+				<li>Distinguish between functional and non-functional user requirements in systems, such as:
+				  <ul>
+					<li>Stock control</li>
+					<li>Reservation</li>
+					<li>Payroll and Payroll</li>
+				  </ul>
+				</li>
+				<li>Explain the purpose of a Data Flow Diagram (DFD)</li>
+				<li>Produce context and Level 1 DFDs for simple scenarios</li>
+			  </ul>
+			</div>
+		</section>	
+		<section class="paragraph" id="paragraph">
+			<p>
+				The purpose of analysis in system development 
+				is to thoroughly understand and define the 
+				requirements of a system before the design 
+				and implementation stages begin. It involves 
+				identifying the needs of the users, determining 
+				the system's objectives, and specifying the 
+				functionalities that the system must deliver. 
+				Analysis serves as the foundation for building 
+				a system that meets user expectations and 
+				business goals. By conducting a detailed 
+				analysis, developers can minimize the risks 
+				of misunderstandings and errors that might 
+				arise later in the project, ensuring that the 
+				system is both effective and efficient.
+			</p>
+			<p>
+				Functional requirements specify what the 
+				system should do, such as processing 
+				transactions, managing inventory, or 
+				handling reservations. For instance, in a 
+				stock control system, functional requirements 
+				might include tracking inventory levels and 
+				generating reorder alerts. In a payroll system, 
+				they might involve calculating employee salaries 
+				and deductions accurately.
+			</p>
+			<p> Non-functional requirements define the system's 
+				attributes, such as performance, security, 
+				usability, and reliability. These are critical 
+				for ensuring that the system meets user 
+				expectations in terms of speed, security, 
+				and user experience. For example, a reservation 
+				system might require a non-functional 
+				requirement of being able to handle a 
+				large number of concurrent users without 
+				performance degradation.
+			</p>
+		</section>	  
+		<section id="Intervew">
+			<img src="./images/Interviews.png" alt="Intervew">
+			<div class="Intervew_text">
+				<h4>Intervews</h4>
+				<p>Intervews involve direct communication with 
+					stakeholders to gather detailed insights 
+					about their needs and expectations. This 
+					method is highly effective for understanding 
+					complex requirements and obtaining qualitative data
+				</p>
+			</div>
+		</section>
+		<section id="Questionnaire">
+			<img src="./images/Questionnaires.png" alt="Questionnaires">
+			<div class="Questionnaire_text">
+				<h4>Questionnaires</h4>
+				<p>
+					Questionnaires allow for the collection of 
+					information from a large number of users quickly. 
+					They are useful for gathering quantitative data 
+					and identifying common trends or opinions among users.
+				</p>
+			</div>
+		</section>
+		<section id="Observation">
+			<img src="./images/Observation.png" alt="Observation">
+			<div class="Observation_text">
+				<h4>Observations</h4>
+				<p>
+					Observation involves watching how users interact 
+					with the current system or perform their tasks. 
+					This technique is valuable for uncovering issues 
+					that users may not be able to articulate or might overlook.
+				</p>
+			</div>
+		</section>
+		<section id="Document_Sampling">
+			<img src="./images/Document Sampling.png" alt="Document_Sampling">
+			<div class="Document_Sampling_text">
+				<h4>Document Sampling</h4>
+				<p>
+					Document Sampling entails reviewing existing 
+					documentation, such as reports, forms, and manuals, 
+					to understand the current processes and data flows. 
+					It helps in identifying requirements that are already 
+					documented and ensures that nothing is missed.
+				</p>
+			</div>
+		</section>
+		<section class="paragraph_DFD">
+			<div class="content_DFD_1">
+				<h4>Purpose of a Data Flow Diagram (DFD)</h4>
+				<p>
+					A Data Flow Diagram (DFD) visually represents 
+					how data moves through a system, showing processes, 
+					data stores, and the flow between them. Its 
+					purpose is to give a clear overview of the 
+					system's functionality and interactions, 
+					helping both technical and non-technical 
+					stakeholders understand how the system works. 
+					DFDs are useful in identifying potential 
+					issues and ensuring all requirements are met, 
+					especially in complex systems, by breaking 
+					down processes into manageable parts for easier 
+					analysis and design.
+				</p>
+				<img src="./images/data_flow.png" alt="data_flow_diagram">
+			</div>
+			<div class="content_DFD_2">
+				<h4>Producing Context and Level 1 DFDs</h4>
+				<p>
+					Creating a context DFD maps the system's boundaries 
+					and interactions with external entities, like users 
+					or other systems. This high-level diagram offers an 
+					overview of the system. A Level 1 DFD breaks down 
+					the main process into sub-processes, showing how 
+					data moves between them and external entities. 
+					It helps in understanding the system's internal 
+					workings, essential for designing its architecture. 
+					For example, in a payroll system, a Level 1 DFD 
+					might show processes like "Calculate Pay," "Generate 
+					Payslip," and "Update Employee Records" with the 
+					data flows between them.
+				</p>
+				<img src="./images/data_flow_1.png" alt="data_flow_diagram">
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="wrapper footer-wrapper">
+		  <div class="footer_section aboutf">
+			<h2>BordenIce's Rewision Website</h2>
+			<p>Thank you for visiting my revision website.</p>
+		  </div>
+		  <div class="footer_section linksf">
+			<h2>Quick Links</h2>
+			<ul>
+			  <li><a href="#chapter2">Chapter 2</a></li>
+			  <li><a href="#paragraph">Paragraphs</a></li>
+			  <li><a href="#Intervew">Intervew</a></li>
+			  <li><a href="#Questionnaire">Questionnaire</a></li>
+			  <li><a href="#Observation">Observation</a></li>
+			  <li><a href="#Document_Sampling">Document_Sampling</a></li>
+			  <li><a href="#paragraph_DFD">Data Flow Diagrams</a></li>
+			</ul>
+		  </div>
+		  <div class="footer_section contactf">
+			<h2>Contact Info</h2>
+			<ul>
+			  <li><i class="phone"></i> +44 XXX-XXX-XXXX</li>
+			  <li><i class="email"></i> fomenkobohdan4@gmail.com</li>
+			  <li><i class="map-marker"></i> Downpatrick, UK BT308HY</li>
+			</ul>
+			<div class="socials">
+			  <a href="https://github.com/BordenIce" target="_blank">
+				<img src="./images/github.png" alt="GitHub" class="social-icon">
+			  </a>
+			  <a href="https://x.com/BohdanF27944" target="_blank">
+				<img src="./images/twitter.png" alt="Twitter" class="social-icon">
+			  </a>
+			  <a href="https://t.me/BordenIce" target="_blank">
+				<img src="./images/telegram.png" alt="Telegram" class="social-icon">
+			  </a>
+			  <a href="http://www.instagram.com/_bordenice_" target="_blank">
+				<img src="./images/instagram.png" alt="Instagram" class="social-icon">
+			  </a>
+			  <a href="https://discord.com/channels/@me" target="_blank">
+				<img src="./images/discord.png" alt="Discord" class="social-icon">
+			  </a>
+			  <a href="https://wa.me/447778230034" target="_blank">
+				<img src="./images/whatsapp.png" alt="Whatsapp" class="social-icon">
+			  </a>
+			</div>
+		  </div>
+		</div>
+		<div class="footer_bottom">
+		  <p>Designed By BordenIce</p>
+		</div>
+	</footer>
+	<script src="scrypt.js"></script>
+</body>
+</html>
